@@ -5,7 +5,7 @@ dotnet run --project hello-world-api
 ```
 Then launch your browser and access http://localhost:5000
 
-# Run on web app
+# create zip app for web app
 ```
 cd hello-world-api
 
@@ -17,6 +17,8 @@ zip -r ../app.zip .
 
 cd ..
 ```
+
+# Run on web app
 
 ```
 az webapp deploy --name koieng-app --resource-group koieng-app --src-path app.zip --type zip
